@@ -31,6 +31,10 @@ For each measurement received from the [Udacity Term 2 Simulator](https://github
 
 **Normalized Innovation Squared (NIS)** is also calculated for LIDAR (2 DOF) and RADAR (3 DOF) measurements to check the consistency of the model's uncertainty level based on 95% [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) thresholds.
 
+[<img src="./images/UKF_video_screenshot.png" width="800">](https://vimeo.com/243361943)
+
+## Reference Equations
+
 The implementation uses the following matrices and equations:
 
 * x = estimated state
